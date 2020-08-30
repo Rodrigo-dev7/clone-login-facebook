@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <button onclick="myFunction()">Dark</button>
+
+  <div class="container">
+    <div class="description">
+      <img src="/assets/fb-logo.svg" alt="">
+      <p>O Facebook ajuda você a se conectar e <br>
+        compartilhar com as pessoas que <br>
+        fazem parte da sua vida.</p>
+    </div>
+
+    <div class="form-content">
+      <div class="form">
+        <input type="email" placeholder="Email ou telefone">
+        <input type="password" placeholder="Senha">
+        <button type="submit">Entrar</button>
+        <a href="" class="forget">Esqueceu a conta?</a>
+        <hr>
+        <div class="new-page">
+          <a href="">Criar nova conta</a>
+        </div>
+      </div>
+      <div class="footer-page">
+        <p> <a target="_black" href="https://facebook.com"><strong>Criar uma Página</strong></a>
+          para uma celebridade, banda ou empresa.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function myFunction() {
+      var element = document.body
+      element.classList.toggle("dark-mode")
+    }
+  </script>
+</body>
+
+</html>
